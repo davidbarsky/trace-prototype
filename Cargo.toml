@@ -1,0 +1,12 @@
+cargo-features = ["edition"]
+
+[package]
+name = "trace-prototype"
+version = "0.1.0"
+authors = ["David Barsky <me@davidbarsky.com>"]
+edition = '2018'
+
+[dependencies]
+failure = "0.1"
+crossbeam = "0.4"
+lazy_static = "1"
